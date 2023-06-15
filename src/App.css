@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-color: hsl(357, 63%, 46%);
+  height:100vh;
+  width:100vw;
+  position:fixed;
+  top:0;
+}
+
+center {
+  position:relative;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+.panel {
+  background-color: white;
+  min-width:35%;
+  width:min-content;
+  display:relative;
+  padding:5vmin;
+  border-radius: 3vmin;
+}
+
+h1 {
+  color:#b71318;
+}
+
+img {
+  aspect-ratio:initial;
+  width: 50%;
+}
+
+button {
+  border: 0px;
+  background-color:#b71318;
+  color:white;
+  font-size: 5vmin;
+  padding:3vmin;
+  cursor: pointer;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+}
+
+button:disabled{
+  cursor:none;
+  background-color: #cf575b;
+}
